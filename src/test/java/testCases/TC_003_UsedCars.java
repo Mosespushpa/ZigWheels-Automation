@@ -12,6 +12,9 @@ public class TC_003_UsedCars extends BaseClass {
         usedCars us=new usedCars(driver);
         us.hoverOverMore();
         us.clickUsedCars();
+
+
+
         us.clickChennai();
         us.allModels();
     }

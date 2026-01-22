@@ -1,0 +1,28 @@
+2026-01-22 15:28:50 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-22 15:28:50 [main] INFO  testCases.TC_002_UpComingBikes - Hovering on NewBikes
+2026-01-22 15:28:50 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-22 15:28:52 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-22 15:28:54 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-22 15:28:57 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-22 15:32:01 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-22 15:32:01 [main] INFO  testCases.TC_002_UpComingBikes - Hovering on NewBikes
+2026-01-22 15:32:02 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-22 15:32:03 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-22 15:32:06 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-22 15:32:07 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-22 15:34:11 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-22 15:34:11 [main] INFO  testCases.TC_002_UpComingBikes - Hovering on NewBikes
+2026-01-22 15:34:11 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-22 15:34:13 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-22 15:34:14 [main] ERROR testCases.TC_002_UpComingBikes - Error as occured
+2026-01-22 15:35:54 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-22 15:35:54 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-22 15:35:56 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-22 15:35:57 [main] ERROR testCases.TC_002_UpComingBikes - Error as occured
+2026-01-22 15:36:22 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-22 15:36:22 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-22 15:36:24 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-22 15:37:26 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-22 15:37:27 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-22 15:37:29 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-22 15:37:30 [main] ERROR testCases.TC_002_UpComingBikes - Error as occured
