@@ -50,7 +50,7 @@ public class UpComingBikes  extends BasePage{
     //select honda Bike as model
     public void selectBikeModel() throws InterruptedException {
         scrollvertical("0","1000");
-        //Thread.sleep(1000);
+        Thread.sleep(1000);
         hondaBikes.click();
 
     }
