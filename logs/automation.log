@@ -1,52 +1,20 @@
-2026-01-22 15:28:50 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 15:28:50 [main] INFO  testCases.TC_002_UpComingBikes - Hovering on NewBikes
-2026-01-22 15:28:50 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 15:28:52 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-01-22 15:28:54 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-01-22 15:28:57 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-01-22 15:32:01 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 15:32:01 [main] INFO  testCases.TC_002_UpComingBikes - Hovering on NewBikes
-2026-01-22 15:32:02 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 15:32:03 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-01-22 15:32:06 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-01-22 15:32:07 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-01-22 15:34:11 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 15:34:11 [main] INFO  testCases.TC_002_UpComingBikes - Hovering on NewBikes
-2026-01-22 15:34:11 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 15:34:13 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-01-22 15:34:14 [main] ERROR testCases.TC_002_UpComingBikes - Error as occured
-2026-01-22 15:35:54 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 15:35:54 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-22 15:35:56 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 15:35:57 [main] ERROR testCases.TC_002_UpComingBikes - Error as occured
-2026-01-22 15:36:22 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 15:36:22 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-22 15:36:24 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 15:37:26 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 15:37:27 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-22 15:37:29 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 15:37:30 [main] ERROR testCases.TC_002_UpComingBikes - Error as occured
-2026-01-22 16:00:40 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 16:00:41 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-22 16:00:42 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 16:00:43 [main] ERROR testCases.TC_002_UpComingBikes - Error as occured
-2026-01-22 16:01:18 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-22 16:01:19 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-22 16:01:20 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-22 16:01:22 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-01-22 16:01:24 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-01-22 16:01:24 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-01-22 16:01:51 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-01-22 16:01:52 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-01-22 16:01:56 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-01-22 16:01:56 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-01-22 16:01:58 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Models
-2026-01-22 16:01:58 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-01-22 16:02:21 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-01-22 16:02:21 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-01-22 16:02:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-22 16:02:25 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-01-22 16:02:25 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-22 16:02:26 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-22 16:02:28 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-22 16:02:28 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-22 16:58:09 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-22 16:58:09 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-22 16:58:11 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-22 16:58:13 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-22 16:58:15 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-22 16:58:15 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-22 16:58:24 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-22 16:58:24 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-22 16:58:27 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-22 16:58:27 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-22 16:58:28 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-22 16:58:28 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-22 16:58:39 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-22 16:58:39 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-22 16:58:41 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-22 16:58:42 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-22 16:58:42 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-22 16:58:43 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-22 16:58:46 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-22 16:58:46 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
