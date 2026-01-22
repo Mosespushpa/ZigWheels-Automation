@@ -3,6 +3,7 @@ package testBase;
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -12,7 +13,9 @@ public class BaseClass {
 
     @BeforeClass
     public void setup() {
-        driver = new ChromeDriver();
+        ChromeOptions op = new ChromeOptions();
+        op.addArguments("--disable-notifications");
+        driver = new ChromeDriver(op);
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -20,11 +23,11 @@ public class BaseClass {
         driver.manage().window().maximize();
     }
 
-    @AfterClass
-    public void tearDown() {
-
-        driver.close();
-    }
+//    @AfterClass
+//    public void tearDown() {
+//
+//        driver.close();
+//    }
 
 
 
