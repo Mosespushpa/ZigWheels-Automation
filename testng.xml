@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/2457401/IdeaProjects/ZigWheels-Automation/src/test/java/testCases/TC_003_UsedCars.java"><classes><class name="testCases.TC_003_UsedCars"><methods><include name="usedCars"/></methods></class></classes></test></suite>

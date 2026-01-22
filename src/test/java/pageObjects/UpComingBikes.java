@@ -69,8 +69,8 @@ public class UpComingBikes  extends BasePage{
     }
     // retrieve bikes under specific price range
     public void bikesDetails() throws InterruptedException {
+        scrollvertical("0","1000");
         Thread.sleep(1000);
-        scrollvertical("0","1600");
         if(viewMore()){
             viewMoreBikes.click();
         }
