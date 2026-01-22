@@ -23,11 +23,11 @@ public class BaseClass {
         driver.manage().window().maximize();
     }
 
-//    @AfterClass
-//    public void tearDown() {
-//
-//        driver.close();
-//    }
+    @AfterClass
+    public void tearDown() {
+
+        driver.close();
+    }
 
 
 
