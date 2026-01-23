@@ -2,3 +2,43 @@
 2026-01-23 11:58:22 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
 2026-01-23 11:58:25 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
 2026-01-23 11:58:25 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-23 12:15:52 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-23 12:15:53 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-23 12:15:55 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-23 12:15:56 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-23 12:15:57 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-23 12:15:58 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-23 12:15:59 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-23 12:16:00 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-23 12:16:01 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-23 12:16:01 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-23 12:16:02 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-23 12:16:02 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-23 12:16:13 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-23 12:16:13 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-23 12:16:14 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-23 12:16:14 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-23 12:16:20 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-23 12:16:20 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-23 12:16:20 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-23 12:16:21 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-23 12:16:22 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-23 12:16:22 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-23 12:16:22 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-23 12:16:22 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-23 12:16:34 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-23 12:16:34 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-23 12:16:35 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-23 12:16:35 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-23 12:16:36 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-23 12:16:36 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-23 12:16:38 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-23 12:16:39 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-23 12:16:39 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-23 12:16:39 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-23 12:16:40 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-23 12:16:40 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-23 12:16:41 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-23 12:16:41 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-23 12:16:42 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-23 12:16:42 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
