@@ -37,6 +37,9 @@ public class MyListeners implements ITestListener {
 
     public void onTestSuccess(ITestResult result){
         test = extent.createTest(result.getName());
+        if(result.getName().equals("invalidUserDetails")){
+            test.addScreenCaptureFromPath("C:\\My WorkSpace\\Hackathon Project\\ZigWheels-Automation\\ScreenShots\\errorMessage.png");
+        }
         test.log(Status.PASS, "Test case PASSED is: " +result.getName());
     }
 
