@@ -8,11 +8,10 @@ import testBase.BaseClass;
 public class TC_001_HomePage extends BaseClass{
 
     @Test
-    public void verify_account_registration() {
+    public void verify_pageTitle() {
         HomePage hp = new HomePage(driver);
 
         String title = hp.getTitle(driver);
-        System.out.println("Test the link");
         Assert.assertEquals(title, "New Cars, Bikes & Scooters, Used Cars, News & Reviews - ZigWheels");
 
     }

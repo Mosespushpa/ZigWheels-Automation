@@ -2,6 +2,9 @@ package testBase;
 
 import java.time.Duration;
 
+import Listeners.DriverFactory;
+
+import Listeners.DriverFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -50,16 +53,20 @@ public class BaseClass {
                 throw new IllegalArgumentException("Browser not supported: " + browser);
         }
 
-        driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        DriverFactory.setDriver(driver);
 
-        driver.get("https://www.zigwheels.com/");
-        driver.manage().window().maximize();
+
+        DriverFactory.getDriver().manage().deleteAllCookies();
+        DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        DriverFactory.getDriver().get("https://www.zigwheels.com/");
+        DriverFactory.getDriver().manage().window().maximize();
     }
 
     @AfterClass
     public void tearDown() {
-        driver.quit();
+        DriverFactory.getDriver().quit();
+        DriverFactory.removeDriver();
     }
 
 

@@ -1,29 +1,4 @@
-2026-01-23 09:52:35 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-01-23 09:52:45 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-01-23 09:52:45 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-01-23 09:52:45 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-01-23 09:52:45 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-01-23 09:52:50 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-01-23 09:52:50 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-01-23 09:52:50 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-01-23 09:52:51 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-01-23 09:52:52 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-01-23 09:52:52 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-01-23 09:52:52 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-01-23 09:52:52 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-01-23 09:53:03 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-01-23 09:53:03 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-01-23 09:53:03 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-01-23 09:53:04 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-01-23 09:53:04 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-23 09:53:05 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-23 09:53:06 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-01-23 09:53:06 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-23 09:53:07 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-23 09:53:07 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-01-23 09:53:07 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-23 09:53:07 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-23 09:53:09 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-23 09:53:09 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-01-23 09:53:10 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-23 09:53:10 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-23 11:58:22 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-23 11:58:22 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-23 11:58:25 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-23 11:58:25 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
