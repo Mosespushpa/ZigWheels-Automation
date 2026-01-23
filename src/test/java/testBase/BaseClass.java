@@ -53,6 +53,7 @@ public class BaseClass {
                 throw new IllegalArgumentException("Browser not supported: " + browser);
         }
 
+
         DriverFactory.setDriver(driver);
 
 
