@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/2457247/Automation/demo/ZigWheels-Automation/src/test/java/testCases/TC_001_HomePage.java">
+<suite name="All Test Suite" parallel="tests">
+
+    <test name="ChromeTest" verbose="2" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC_001_HomePage"/>
+            <class name="testCases.TC_002_UpComingBikes"/>
+            <class name="testCases.TC_003_UsedCars"/>
+            <class name="testCases.TC_004_InvalidUserDetails"/>
+        </classes>
+    </test>
+
+    <test name="EdgeTest" verbose="2" preserve-order="true">
+        <parameter name="browser" value="edge"/>
         <classes>
             <class name="testCases.TC_001_HomePage"/>
             <class name="testCases.TC_002_UpComingBikes"/>
