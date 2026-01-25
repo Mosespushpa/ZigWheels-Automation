@@ -5,7 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObjects.UpComingBikes;
+
+import java.time.Duration;
 import java.util.List;
 
 public class usedCars extends BasePage{
@@ -14,7 +18,7 @@ public class usedCars extends BasePage{
     }
 
     Actions act=new Actions(driver);
-    UpComingBikes up=new UpComingBikes(driver);
+    JavascriptExecutor js = (JavascriptExecutor)driver;
 
     //Locating More DropDown
     @FindBy(xpath="//span[text()='MORE']")
@@ -32,6 +36,10 @@ public class usedCars extends BasePage{
     @FindBy(xpath="//div[@class='gsc_thin_scroll']/descendant::label")
     List<WebElement> allmodels;
 
+    //Locating Popular Models Text
+    @FindBy(xpath = "//div[contains(text(),'Pop')]")
+    WebElement popular;
+
     public void hoverOverMore(){
         act.moveToElement(more).perform();
     }
@@ -45,8 +53,7 @@ public class usedCars extends BasePage{
     }
 
     public void allModels() throws InterruptedException {
-        up.scrollvertical("0","500");
-        Thread.sleep(1000);
+        js.executeScript("arguments[0].scrollIntoView(true);",popular);
         for (WebElement i:allmodels){
             System.out.println(i.getText());
         }

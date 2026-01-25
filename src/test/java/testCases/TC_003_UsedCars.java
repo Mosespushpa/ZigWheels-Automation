@@ -9,7 +9,7 @@ import testBase.BaseClass;
 public class TC_003_UsedCars extends BaseClass {
 
     @Test
-    public void usedCars() throws InterruptedException {
+    public void usedCars(){
         try {
             logger.info("** Started TC_003_UsedCars **");
             usedCars us = new usedCars(driver);

@@ -54,7 +54,14 @@ public class MyListeners implements ITestListener {
         test.log(Status.SKIP, "Test case SKIPPED is: " +result.getName());
     }
 
-    public void onFinish(ITestContext context){
+    public void onFinish(ITestContext context) {
         extent.flush();
+        try {
+            String reportPath = System.getProperty("user.dir") + "./reports/zigWheelsExtentReport.html";
+            java.awt.Desktop.getDesktop().browse(new java.io.File(reportPath).toURI());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
+
 }
