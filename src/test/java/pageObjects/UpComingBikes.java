@@ -17,7 +17,7 @@ public class UpComingBikes  extends BasePage{
     JavascriptExecutor js;
 
     public UpComingBikes(WebDriver driver) {
-        super(driver); this.driver = driver;
+        super(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         this.act = new Actions(driver);
         this.js = (JavascriptExecutor) driver;
@@ -36,7 +36,7 @@ public class UpComingBikes  extends BasePage{
     WebElement viewMoreBikes;
 
     @FindBy(xpath = "//div[contains(text(),'Expected')]/parent::div")
-    List<WebElement> bikeDetails;
+    static List<WebElement> bikeDetails;
 
 
 //    Actions act = new Actions(driver);

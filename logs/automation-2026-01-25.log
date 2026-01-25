@@ -1,68 +1,80 @@
-2026-01-25 13:51:37 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-25 13:51:37 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-01-25 13:51:37 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-25 13:51:37 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-01-25 13:51:40 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-25 13:51:40 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-25 13:51:40 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-25 13:51:40 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-25 13:51:41 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-25 13:51:41 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-01-25 13:51:41 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-25 13:51:41 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-01-25 13:52:21 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-25 13:52:21 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-25 13:52:23 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-25 13:52:24 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-01-25 13:52:25 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-01-25 13:52:25 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-01-25 13:52:26 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-25 13:52:26 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-25 13:52:27 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-25 13:52:29 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-01-25 13:52:29 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-01-25 13:52:29 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-01-25 13:52:33 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-01-25 13:52:33 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-01-25 13:52:37 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-01-25 13:52:38 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-01-25 13:52:38 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-01-25 13:52:38 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-01-25 13:52:38 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-01-25 13:52:38 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-01-25 13:52:41 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-01-25 13:52:41 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-01-25 13:52:41 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-01-25 13:52:41 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-01-25 13:52:47 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-01-25 13:52:48 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-01-25 13:52:49 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-25 13:52:49 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-01-25 13:52:52 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-25 13:52:52 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-25 13:52:53 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-25 13:52:53 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-01-25 13:52:53 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-01-25 13:52:53 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-01-25 13:52:53 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-25 13:52:54 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-01-25 13:52:56 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-25 13:52:56 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-25 13:52:58 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-25 13:52:58 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-01-25 13:55:59 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-01-25 13:55:59 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-01-25 13:56:00 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-01-25 13:56:01 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-01-25 13:56:02 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-01-25 13:56:02 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-01-25 13:56:09 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-01-25 13:56:09 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-01-25 13:56:13 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-01-25 13:56:13 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-01-25 13:56:13 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-01-25 13:56:13 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-01-25 13:56:22 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-01-25 13:56:22 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-01-25 13:56:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-01-25 13:56:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-25 13:56:26 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-25 13:56:26 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-25 13:56:27 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-25 13:56:27 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-25 20:49:30 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-25 20:49:32 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-25 20:49:36 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-25 20:49:38 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-25 20:49:39 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-25 20:49:39 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-25 20:50:13 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-25 20:50:13 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-25 20:50:32 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-25 20:50:32 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-25 20:50:33 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-25 20:50:33 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-25 20:50:52 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-25 20:50:53 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-25 20:50:54 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-25 20:50:54 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-25 20:50:57 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-25 20:50:58 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-25 20:51:00 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-25 20:51:00 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-25 22:19:51 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-25 22:19:51 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-25 22:19:51 [main] ERROR org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Cannot convert mailto:1@##@gmailcom.com in a valid relationship URI-> dummy-URI used
+java.net.URISyntaxException: Illegal character in fragment at index 10: mailto:1@##@gmailcom.com
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parse(URI.java:3210)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at org.apache.poi.openxml4j.opc.PackagingURIHelper.toURI(PackagingURIHelper.java:723)
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:356)
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.<init>(PackageRelationshipCollection.java:155)
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.<init>(PackageRelationshipCollection.java:125)
+	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:783)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:354)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+	at utilities.ExcelUtility.getCellValue(ExcelUtility.java:27)
+	at utilities.DataProviders.getData(DataProviders.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+2026-01-25 22:19:51 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-25 22:19:53 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-25 22:19:54 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-25 22:19:55 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-25 22:19:55 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-25 22:19:58 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-25 22:19:58 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button

@@ -1,4 +1,2 @@
-2026-01-25 13:56:26 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-01-25 13:56:26 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-01-25 13:56:27 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-01-25 13:56:27 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-25 22:19:59 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-25 22:19:59 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **

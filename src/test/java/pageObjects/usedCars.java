@@ -34,7 +34,7 @@ public class usedCars extends BasePage{
 
     //Loating Popular Models
     @FindBy(xpath="//div[@class='gsc_thin_scroll']/descendant::label")
-    List<WebElement> allmodels;
+   static List<WebElement> allmodels;
 
     //Locating Popular Models Text
     @FindBy(xpath = "//div[contains(text(),'Pop')]")

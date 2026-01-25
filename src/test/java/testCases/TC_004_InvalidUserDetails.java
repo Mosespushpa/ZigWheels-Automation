@@ -4,11 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.InvalidLogin;
 import testBase.BaseClass;
+import utilities.DataProviders;
 
 public class TC_004_InvalidUserDetails extends BaseClass {
 
-    @Test
-    public void invalidUserDetails() throws Exception {
+    @Test(dataProvider = "EmailLogin",dataProviderClass = DataProviders.class)
+    public void invalidUserDetails(String email) throws Exception {
         try {
             logger.info("** Started TC_004_InvalidUserDetails **");
             InvalidLogin il = new InvalidLogin(driver);
@@ -22,7 +23,7 @@ public class TC_004_InvalidUserDetails extends BaseClass {
             il.switchingToSigninPage();
             logger.info("Switched to Login Page");
 
-            il.givingUserInput("1@##@gmailcom.com");
+            il.givingUserInput(email);
             logger.info("Invalid input is entered");
 
             il.clickNextButton();
