@@ -8,17 +8,22 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObjects.UpComingBikes;
+import utilities.ExcelUtility;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
 public class usedCars extends BasePage{
     public usedCars(WebDriver driver) {
         super(driver);
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
     Actions act=new Actions(driver);
     JavascriptExecutor js = (JavascriptExecutor)driver;
+    String path = System.getProperty("user.dir")+"//TestData//EmailData.xlsx";
+    ExcelUtility ex = new ExcelUtility(path);
 
     //Locating More DropDown
     @FindBy(xpath="//span[text()='MORE']")
@@ -52,10 +57,16 @@ public class usedCars extends BasePage{
         chennaiClick.click();
     }
 
-    public void allModels() throws InterruptedException {
-        js.executeScript("arguments[0].scrollIntoView(true);",popular);
+    public void allModels() throws IOException {
+        js.executeScript("arguments[0].scrollIntoView({block: 'center'});",allmodels.get(0));
+        wait.until(ExpectedConditions.visibilityOf(allmodels.get(0)));
+        int cellNum = 0;
+        int row = 1;
         for (WebElement i:allmodels){
-            System.out.println(i.getText());
+            String data = i.getText();
+            ex.setCellValue("Sheet3",row,cellNum,data);
+            System.out.println(data);
+            row++;
         }
     }
 

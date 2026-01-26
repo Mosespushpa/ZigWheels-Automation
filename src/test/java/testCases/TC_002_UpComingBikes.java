@@ -28,8 +28,8 @@ public class TC_002_UpComingBikes extends BaseClass {
             logger.info("** Finished TC_002_UpComingBikes **");
         }
         catch(Exception e){
-            logger.error("Error as occured");
-            Assert.fail();
+            logger.error("Error occurred: ", e);
+            Assert.fail(e.getMessage());
         }
     }
 }

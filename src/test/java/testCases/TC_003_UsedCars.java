@@ -29,8 +29,8 @@ public class TC_003_UsedCars extends BaseClass {
             logger.info("** Finished TC_003_UsedCars **");
         }
         catch(Exception e){
-            logger.error("Error as occured");
-            Assert.fail();
+            logger.error("Error occurred: ", e);
+            Assert.fail(e.getMessage());
         }
     }
 

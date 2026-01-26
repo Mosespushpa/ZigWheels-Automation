@@ -1,4 +1,5 @@
 package pageObjects;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.*;
 
@@ -10,11 +11,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utilities.ExcelUtility;
 
 public class UpComingBikes  extends BasePage{
 
     Actions act;
     JavascriptExecutor js;
+    String path = System.getProperty("user.dir")+"//TestData//EmailData.xlsx";
+    ExcelUtility ex = new ExcelUtility(path);
 
     public UpComingBikes(WebDriver driver) {
         super(driver);
@@ -36,7 +40,7 @@ public class UpComingBikes  extends BasePage{
     WebElement viewMoreBikes;
 
     @FindBy(xpath = "//div[contains(text(),'Expected')]/parent::div")
-    static List<WebElement> bikeDetails;
+    public static List<WebElement> bikeDetails;
 
 
 //    Actions act = new Actions(driver);
@@ -79,24 +83,23 @@ public class UpComingBikes  extends BasePage{
     }
 
     // retrieve bikes under specific price range
-    public void bikesDetails(){
+    public void bikesDetails() throws IOException {
         js.executeScript("arguments[0].scrollIntoView({block: 'center'});", viewMoreBikes);
         wait.until(ExpectedConditions.visibilityOf(viewMoreBikes));
         wait.until(ExpectedConditions.elementToBeClickable(viewMoreBikes));
         if(viewMore()){
             js.executeScript("arguments[0].click();", viewMoreBikes);
         }
-        int count = 1;
+        int rowNum = 1;
         for(WebElement detail : bikeDetails){
             String value = detail.getText();
             String[] details = value.split("\n");
             if(Integer.parseInt(cleaning(details[1])) < 600000){
-                System.out.println("Bike "+count);
+                //System.out.println("Bike "+count);
                 for(int i=0;i<=2 ;i++){
-                    System.out.println(details[i]);
+                    ex.setCellValue("Sheet2",rowNum,i,details[i]);
                 }
-                System.out.println("----------------------------------------");
-                count+=1;
+                rowNum+=1;
             }
         }
     }

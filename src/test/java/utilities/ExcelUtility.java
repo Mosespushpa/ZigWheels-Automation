@@ -47,29 +47,24 @@ public class ExcelUtility {
 
     }
 
-//    public String setCellValue(String sheetName,int rowNum,int cellNum) throws IOException {
-//       FileInputStream file=new FileInputStream(path);
-//        file=new FileInputStream(path);
-//        workbook=new XSSFWorkbook(file);
-//        sheet=workbook.getSheet(sheetName);
-//
-//        for(int i=0;i<UpComingBikes.bikeDetails.size();i++){
-//            workbook=new XSSFWorkbook();
-//            sheet=workbook.createSheet(sheetName);
-//            row=sheet.createCell(0);
-//        }
-//
-//
-//
-//
-//
-//        cell=row.createCell(cellNum);
-//
-//
-//
-//
-//
-//        FileOutputStream hh=new FileOutputStream();
-//
-//    }
+    public void setCellValue(String sheetName, int rowNum, int cellNum, String data) throws IOException {
+        FileInputStream file = new FileInputStream(path);
+        workbook = new XSSFWorkbook(file);
+        sheet = workbook.getSheet(sheetName);
+
+        row = sheet.getRow(rowNum);
+        if (row == null) {
+            row = sheet.createRow(rowNum);
+        }
+
+        cell = row.createCell(cellNum);
+        cell.setCellValue(data);
+
+        file.close();
+        FileOutputStream out = new FileOutputStream(path);
+        workbook.write(out);
+        out.close();
+        workbook.close();
+    }
+
 }
