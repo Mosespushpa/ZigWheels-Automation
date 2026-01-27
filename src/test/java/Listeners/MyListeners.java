@@ -42,7 +42,6 @@ public class MyListeners implements ITestListener {
         }
         test.log(Status.PASS, "Test case PASSED is: " +result.getName());
     }
-
     public void onTestFailure(ITestResult result){
         test = extent.createTest(result.getName());
         test.log(Status.FAIL, "Test case FAILED is: " +result.getName());

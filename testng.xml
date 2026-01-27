@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Test Suite" >
 
     <listeners>
         <listener class-name="Listeners.MyListeners"/>
@@ -16,13 +16,13 @@
         </classes>
     </test>
 
-<!--    <test name="EdgeTest" thread-count="5" verbose="2" preserve-order="true">-->
-<!--        <parameter name="browser" value="edge"/>-->
-<!--        <classes>-->
-<!--            <class name="testCases.TC_001_HomePage"/>-->
-<!--            <class name="testCases.TC_002_UpComingBikes"/>-->
-<!--            <class name="testCases.TC_003_UsedCars"/>-->
-<!--            <class name="testCases.TC_004_InvalidUserDetails"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="EdgeTest" thread-count="5" verbose="2" preserve-order="true">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testCases.TC_001_HomePage"/>
+            <class name="testCases.TC_002_UpComingBikes"/>
+            <class name="testCases.TC_003_UsedCars"/>
+            <class name="testCases.TC_004_InvalidUserDetails"/>
+        </classes>
+    </test>
 </suite>
