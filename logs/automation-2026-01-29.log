@@ -1,0 +1,144 @@
+2026-01-29 16:15:47 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-29 16:15:48 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-29 16:15:48 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-29 16:15:52 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-29 16:15:53 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-29 16:15:53 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-29 16:15:53 [TestNG-tests-1] ERROR testCases.TC_004_InvalidUserDetails - Error occurred: 
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at pageObjects.InvalidLogin.switchingToSigninPage(InvalidLogin.java:52)
+	at testCases.TC_004_InvalidUserDetails.invalidUserDetails(TC_004_InvalidUserDetails.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-01-29 16:15:57 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-29 16:15:57 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-29 16:15:57 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-29 16:15:57 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-29 16:15:59 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-29 16:16:00 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-29 16:16:01 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-29 16:16:01 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-29 16:17:14 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-29 16:17:15 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-29 16:17:15 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-29 16:17:15 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-29 16:17:16 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-29 16:17:17 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-29 16:17:17 [TestNG-tests-2] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-29 16:17:18 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-29 16:17:20 [TestNG-tests-2] ERROR testCases.TC_002_UpComingBikes - Error occurred: 
+java.io.IOException: Truncated ZIP file
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.readDeflated(ZipArchiveInputStream.java:1109)
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.read(ZipArchiveInputStream.java:1028)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.read(ZipArchiveThresholdInputStream.java:78)
+	at org.apache.poi.util.IOUtils.toByteArray(IOUtils.java:245)
+	at org.apache.poi.util.IOUtils.toByteArrayWithMaxLength(IOUtils.java:225)
+	at org.apache.poi.openxml4j.util.ZipArchiveFakeEntry.<init>(ZipArchiveFakeEntry.java:82)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.<init>(ZipInputStreamZipEntrySource.java:98)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:157)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:351)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:64)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:313)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:287)
+	at utilities.ExcelUtility.setCellValue(ExcelUtility.java:52)
+	at pageObjects.UpComingBikes.bikesDetails(UpComingBikes.java:100)
+	at testCases.TC_002_UpComingBikes.upComingBikesTest(TC_002_UpComingBikes.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-01-29 16:17:21 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-29 16:17:21 [TestNG-tests-1] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-29 16:17:30 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-29 16:17:30 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-29 16:17:31 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-29 16:17:31 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-29 16:17:33 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-29 16:17:33 [TestNG-tests-2] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-29 16:17:37 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-29 16:17:37 [TestNG-tests-2] ERROR testCases.TC_003_UsedCars - Error occurred: 
+org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: MicrosoftEdge=144.0.3719.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [75f4363ae2597dbcfae772038a3ed0d4, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.6338FE81E6560B58324AB9C5AD0D9BD2.d.E6CE9D59FC18F8DDF055B9AF6850DDDC.e.188}], script=arguments[0].scrollIntoView({block: 'center'});}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 9004, ms:edgeOptions: {debuggerAddress: localhost:62611}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\2457247\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62611/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 75f4363ae2597dbcfae772038a3ed0d4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:492)
+	at pageObjects.usedCars.allModels(usedCars.java:61)
+	at testCases.TC_003_UsedCars.usedCars(TC_003_UsedCars.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
