@@ -18,3 +18,4 @@ public class DriverFactory {
         tDriver.remove();
     }
 }
+//when we want to execute parallelly we need this driverfactory.
