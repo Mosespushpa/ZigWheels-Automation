@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<<<<<<< HEAD
-<suite name="All Test Suite" thread-count="5" >
-=======
-<suite name="All Test Suite"  parallel="tests">
->>>>>>> 05276489ac38d01670d41a8eaa5ff46712c9add1
 
+<suite name="All Test Suite" thread-count="5" >
     <listeners>
         <listener class-name="Listeners.MyListeners"/>
     </listeners>

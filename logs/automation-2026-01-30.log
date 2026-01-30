@@ -1,0 +1,104 @@
+<<<<<<< HEAD
+2026-01-29 16:17:37 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-29 16:17:37 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-29 16:17:37 [TestNG-tests-1] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-29 16:17:47 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-29 16:17:47 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-29 16:17:47 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-29 16:17:47 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-29 16:17:47 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-29 16:17:48 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-29 16:17:48 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-29 16:17:48 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-29 16:17:49 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-29 16:17:50 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-29 16:17:50 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-29 16:17:50 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-29 16:17:51 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-29 16:17:51 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-29 16:17:52 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-29 16:17:52 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-29 16:18:53 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-29 16:18:53 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-29 16:18:55 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-29 16:18:57 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-29 16:18:59 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-29 16:18:59 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-29 16:19:09 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-29 16:19:09 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-29 16:19:12 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-29 16:19:12 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-29 16:19:13 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-29 16:19:13 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-29 16:19:23 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-29 16:19:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-29 16:19:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-29 16:19:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-29 16:19:25 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-29 16:19:25 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-29 16:19:27 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-29 16:19:27 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-30 18:23:05 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-30 18:23:06 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-30 18:23:07 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-30 18:23:08 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-30 18:23:17 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-30 18:23:17 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-30 18:23:30 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-30 18:23:30 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-30 18:23:33 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-30 18:23:34 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-30 18:23:35 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-30 18:23:35 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-30 18:23:48 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-30 18:23:49 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-30 18:23:49 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-30 18:23:49 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-30 18:24:17 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-30 18:24:18 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-30 18:24:18 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-30 18:24:18 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-30 18:26:06 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-30 18:26:06 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-30 18:26:08 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-30 18:26:09 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-30 18:26:19 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-30 18:26:19 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-30 18:26:33 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-30 18:26:33 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-30 18:26:37 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-01-30 18:26:38 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-01-30 18:26:39 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-01-30 18:26:39 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-01-30 18:26:52 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-30 18:26:53 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-30 18:26:53 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-30 18:26:53 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-30 18:26:55 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-30 18:26:56 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-30 18:26:58 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-30 18:26:58 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+=======
+2026-01-29 15:27:39 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-29 15:27:39 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-29 15:27:39 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-29 15:27:39 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-29 15:27:39 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-29 15:27:40 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-29 15:27:40 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-29 15:27:40 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-29 15:27:40 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-29 15:27:41 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-29 15:27:41 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-29 15:27:41 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-29 15:27:42 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-29 15:27:42 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-29 15:27:44 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-29 15:27:44 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-29 15:27:45 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-29 15:27:45 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-29 15:27:45 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-29 15:27:45 [TestNG-tests-2] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-01-29 15:27:47 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-29 15:27:47 [TestNG-tests-1] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+>>>>>>> 05276489ac38d01670d41a8eaa5ff46712c9add1
