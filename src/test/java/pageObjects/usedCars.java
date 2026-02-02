@@ -50,6 +50,12 @@ public class usedCars extends BasePage{
         act.moveToElement(more).pause(Duration.ofSeconds(1)).perform();
     }
 
+    public void scrollToElement(WebElement element) {
+        wait.until(ExpectedConditions.visibilityOf(element));
+        js.executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
     public void clickUsedCars(){
         wait.until(ExpectedConditions.visibilityOf(usedCars));
         wait.until(ExpectedConditions.elementToBeClickable(usedCars));
@@ -61,7 +67,7 @@ public class usedCars extends BasePage{
     }
 
     public void allModels() throws IOException {
-        act.scrollToElement(allmodels.get(0)).pause(Duration.ofSeconds(1)).perform();
+        scrollToElement(allmodels.get(allmodels.size()-1));
         wait.until(ExpectedConditions.visibilityOf(allmodels.get(0)));
         int cellNum = 0;
         int row = 1;
@@ -74,4 +80,3 @@ public class usedCars extends BasePage{
     }
 
 }
-

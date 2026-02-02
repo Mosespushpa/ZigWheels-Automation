@@ -47,14 +47,14 @@ public class InvalidLogin extends BasePage {
         googleSignin.click();
     }
 
-    public void switchingToSigninPage(){
-        String parentID = driver.getWindowHandle();
+    public void switchingToSigninPage() {
+
+        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
         Set<String> windowIDs = driver.getWindowHandles();
         List<String> windowList = new ArrayList<>(windowIDs);
         driver.switchTo().window(windowList.get(1));
-        //System.out.println("Switched to child tab");
-        //System.out.println("Child tab title: " + driver.getTitle());
     }
+
 
     public void givingUserInput(String email){
         userInput.sendKeys(email);
@@ -67,8 +67,6 @@ public class InvalidLogin extends BasePage {
     public void waitForErrorMsg(){
         wait.until(ExpectedConditions.visibilityOf(errormsg));
     }
-
-
 
 
 }

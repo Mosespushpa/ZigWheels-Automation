@@ -1,89 +1,79 @@
-2026-02-02 16:05:36 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-02-02 16:05:49 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-02-02 16:05:50 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-02-02 16:05:51 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-02-02 16:05:51 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-02-02 16:05:53 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-02-02 16:05:54 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-02-02 16:05:56 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-02-02 16:05:56 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-02-02 16:11:49 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-02-02 16:11:49 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-02-02 16:11:53 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-02-02 16:11:57 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-02-02 16:12:06 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-02-02 16:12:06 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-02-02 16:12:25 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-02-02 16:12:25 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-02-02 16:12:37 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-02-02 16:12:38 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-02-02 16:12:41 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-02-02 16:12:41 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-02-02 16:12:57 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-02-02 16:12:57 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-02-02 16:12:58 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-02-02 16:12:58 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-02-02 16:13:01 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-02-02 16:13:02 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-02-02 16:13:03 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-02-02 16:13:03 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-02-02 16:36:03 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-02-02 16:36:04 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-02-02 16:36:05 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-02-02 16:36:07 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-02-02 16:36:11 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-02-02 16:36:11 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-02-02 16:36:19 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-02-02 16:36:19 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-02-02 16:36:22 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-02-02 16:36:22 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-02-02 16:36:24 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-02-02 16:36:24 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-02-02 16:36:32 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-02-02 16:36:32 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-02-02 16:36:32 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-02-02 16:36:32 [main] ERROR testCases.TC_004_InvalidUserDetails - Error occurred: 
-2026-02-02 16:40:43 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-02-02 16:40:43 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-02-02 16:40:45 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-02-02 16:40:47 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-02-02 16:40:51 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-02-02 16:40:51 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-02-02 16:41:00 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-02-02 16:41:00 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-02-02 16:41:03 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-02-02 16:41:03 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-02-02 16:41:05 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-02-02 16:41:05 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-02-02 16:41:13 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-02-02 16:41:13 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-02-02 16:41:14 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-02-02 16:41:14 [main] ERROR testCases.TC_004_InvalidUserDetails - Error occurred: 
-2026-02-02 16:50:00 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-02-02 16:50:00 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-02-02 16:50:01 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-02-02 16:50:01 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-02-02 16:50:05 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-02-02 16:50:05 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-02-02 16:50:05 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-02-02 16:50:05 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
-2026-02-02 16:51:42 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
-2026-02-02 16:51:43 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
-2026-02-02 16:51:45 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
-2026-02-02 16:51:48 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
-2026-02-02 16:51:52 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
-2026-02-02 16:51:52 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
-2026-02-02 16:51:59 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
-2026-02-02 16:52:00 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
-2026-02-02 16:52:03 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
-2026-02-02 16:52:03 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
-2026-02-02 16:52:05 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
-2026-02-02 16:52:05 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
-2026-02-02 16:52:16 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
-2026-02-02 16:52:16 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
-2026-02-02 16:52:17 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
-2026-02-02 16:52:17 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
-2026-02-02 16:52:19 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
-2026-02-02 16:52:19 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
-2026-02-02 16:52:20 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
-2026-02-02 16:52:20 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-02-02 18:12:58 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-02-02 18:13:01 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-02-02 18:13:01 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-02-02 18:22:57 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-02 18:22:58 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-02 18:23:00 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-02 18:23:03 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-02 18:23:12 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-02 18:23:12 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-02-02 18:23:27 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-02-02 18:23:28 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-02-02 18:23:34 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-02-02 18:23:34 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-02-02 18:23:37 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-02-02 18:23:37 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-02-02 18:23:47 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-02-02 18:23:48 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-02-02 18:23:48 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-02-02 18:23:48 [main] ERROR testCases.TC_004_InvalidUserDetails - Error occurred: 
+2026-02-02 19:57:03 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-02 19:57:04 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-02 19:57:07 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-02 19:57:17 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-02 19:57:27 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-02 19:57:27 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-02-02 19:57:54 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-02-02 19:57:55 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-02-02 19:58:01 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-02-02 19:58:01 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-02-02 19:58:05 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-02-02 19:58:05 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-02-02 19:58:22 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-02-02 19:58:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-02-02 19:58:24 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-02-02 19:58:24 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-02-02 19:58:28 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-02-02 19:58:28 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-02-02 19:58:29 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-02-02 19:58:29 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-02-02 21:26:10 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-02 21:26:11 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-02 21:26:21 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-02 21:26:23 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-02 21:26:33 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-02 21:26:33 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-02-02 21:27:12 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-02-02 21:27:14 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-02-02 21:27:19 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-02-02 21:27:20 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-02-02 21:27:20 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-02-02 21:27:20 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-02-02 21:27:38 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-02-02 21:27:38 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-02-02 21:27:39 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-02-02 21:27:39 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-02-02 21:27:42 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-02-02 21:27:43 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-02-02 21:27:43 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-02-02 21:27:43 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-02-02 21:29:14 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-02 21:29:14 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-02 21:29:18 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-02 21:29:19 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-02 21:29:23 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-02 21:29:23 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-02-02 21:29:33 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-02-02 21:29:35 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-02-02 21:29:38 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-02-02 21:29:39 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-02-02 21:29:40 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-02-02 21:29:40 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-02-02 21:30:01 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-02-02 21:30:01 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-02-02 21:30:01 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-02-02 21:30:01 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-02-02 21:30:05 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-02-02 21:30:05 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-02-02 21:30:06 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-02-02 21:30:06 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **

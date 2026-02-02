@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.*;
 
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -53,13 +54,27 @@ public class UpComingBikes  extends BasePage{
         upcomingBikes.click();
     }
 
+
+    public void scrollToElement(WebElement element) {
+        wait.until(ExpectedConditions.visibilityOf(element));
+        js.executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    public void safeClick(WebElement element) {
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+            element.click();
+        } catch (ElementClickInterceptedException e) {
+            js.executeScript("arguments[0].click();", element);
+        }
+    }
+
     //select honda Bike as model
     public void selectBikeModel() {
-        wait.until(ExpectedConditions.visibilityOf(brandName));
-        act.scrollToElement(brandName).pause(Duration.ofSeconds(1)).perform();
-        wait.until(ExpectedConditions.visibilityOf(brandName));
+        scrollToElement(brandName);
         wait.until(ExpectedConditions.elementToBeClickable(brandName));
-        brandName.click();
+        safeClick(brandName);
     }
 
 
@@ -76,11 +91,10 @@ public class UpComingBikes  extends BasePage{
 
     // retrieve bikes under specific price range
     public void bikesDetails() throws IOException {
-        wait.until(ExpectedConditions.visibilityOf(viewMoreBikes));
-        act.scrollToElement(viewMoreBikes).pause(Duration.ofSeconds(1)).perform();
+        scrollToElement(viewMoreBikes);
         wait.until(ExpectedConditions.elementToBeClickable(viewMoreBikes));
         if(viewMoreBikes.isDisplayed()){
-            viewMoreBikes.click();
+            safeClick(viewMoreBikes);
         }
         int rowNum = 1;
         for(WebElement detail : bikeDetails){
