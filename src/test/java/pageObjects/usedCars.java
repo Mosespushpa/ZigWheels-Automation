@@ -47,7 +47,7 @@ public class usedCars extends BasePage{
 
     public void hoverOverMore(){
         wait.until(ExpectedConditions.visibilityOf(more));
-        act.moveToElement(more).perform();
+        act.moveToElement(more).pause(Duration.ofSeconds(1)).perform();
     }
 
     public void clickUsedCars(){
