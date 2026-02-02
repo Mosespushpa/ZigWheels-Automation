@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -47,7 +48,16 @@ public class usedCars extends BasePage{
 
     public void hoverOverMore(){
         wait.until(ExpectedConditions.visibilityOf(more));
-        act.moveToElement(more).pause(Duration.ofSeconds(1)).perform();
+        //act.moveToElement(more).pause(Duration.ofSeconds(1)).perform();
+        safeClick(more);
+    }
+    public void safeClick(WebElement element) {
+        try {
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+            element.click();
+        } catch (ElementClickInterceptedException e) {
+            js.executeScript("arguments[0].click();", element);
+        }
     }
 
     public void scrollToElement(WebElement element) {

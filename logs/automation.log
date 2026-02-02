@@ -77,3 +77,9 @@
 2026-02-02 21:30:05 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
 2026-02-02 21:30:06 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
 2026-02-02 21:30:06 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-02-02 21:56:22 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-02 21:56:22 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-02 21:56:26 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-02 21:56:27 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-02 21:56:32 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-02 21:56:32 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **

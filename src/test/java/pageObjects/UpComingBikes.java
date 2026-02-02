@@ -44,7 +44,8 @@ public class UpComingBikes  extends BasePage{
     // hover over new bikes
     public void hoveronnewBikess(){
         wait.until(ExpectedConditions.visibilityOf(newBikes));
-        act.moveToElement(newBikes).pause(Duration.ofMillis(500)).perform();
+        //act.moveToElement(newBikes).pause(Duration.ofMillis(500)).perform();
+        safeClick(newBikes);
         wait.until(ExpectedConditions.visibilityOf(upcomingBikes));
     }
 
