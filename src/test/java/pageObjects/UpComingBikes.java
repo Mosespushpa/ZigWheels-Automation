@@ -14,16 +14,14 @@ import utilities.ExcelUtility;
 
 public class UpComingBikes  extends BasePage{
 
-    Actions act;
-    JavascriptExecutor js;
+    Actions act = new Actions(driver);
+    JavascriptExecutor js = (JavascriptExecutor) driver;
     String path = System.getProperty("user.dir")+"//TestData//EmailData.xlsx";
     ExcelUtility ex = new ExcelUtility(path);
 
     public UpComingBikes(WebDriver driver) {
         super(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        this.act = new Actions(driver);
-        this.js = (JavascriptExecutor) driver;
     }
 
     @FindBy(xpath = "//span[contains(@class,'c-p ml-5') and contains(.,'NEW BI')]")
@@ -42,16 +40,16 @@ public class UpComingBikes  extends BasePage{
     public static List<WebElement> bikeDetails;
 
 
-//    Actions act = new Actions(driver);
-//    JavascriptExecutor js = (JavascriptExecutor)driver;
-
     // hover over new bikes
     public void hoveronnewBikess(){
+        wait.until(ExpectedConditions.visibilityOf(newBikes));
         act.moveToElement(newBikes).perform();
     }
 
     // click on upcoming bikes
     public void upcomingBikess(){
+        wait.until(ExpectedConditions.visibilityOf(upcomingBikes));
+        wait.until(ExpectedConditions.elementToBeClickable(upcomingBikes));
         upcomingBikes.click();
     }
 

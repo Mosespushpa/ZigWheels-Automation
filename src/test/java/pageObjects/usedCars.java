@@ -46,10 +46,13 @@ public class usedCars extends BasePage{
     WebElement popular;
 
     public void hoverOverMore(){
+        wait.until(ExpectedConditions.visibilityOf(more));
         act.moveToElement(more).perform();
     }
 
     public void clickUsedCars(){
+        wait.until(ExpectedConditions.visibilityOf(usedCars));
+        wait.until(ExpectedConditions.elementToBeClickable(usedCars));
         usedCars.click();
     }
 
