@@ -35,7 +35,7 @@ public class TC_004_InvalidUserDetails extends BaseClass {
             logger.info("** Finished TC_004_InvalidUserDetails **");
         }
         catch(Exception e){
-            logger.error("Error occurred: ", e);
+            logger.error("Error occurred: ", e.getMessage());
             Assert.fail(e.getMessage());
         }
     }

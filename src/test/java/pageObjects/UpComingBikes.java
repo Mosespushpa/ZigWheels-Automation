@@ -27,10 +27,10 @@ public class UpComingBikes  extends BasePage{
         this.js = (JavascriptExecutor) driver;
     }
 
-    @FindBy(xpath = "//span[contains(@class,'c-p ml-5') and contains(.,'NEW BI')]")
+    @FindBy(xpath = "//span[contains(@class,'c-p ml-5') and contains(.,'NEW BI')]/parent::li")
     WebElement newBikes;
 
-    @FindBy(xpath = "//a[@title='Upcoming Bikes']")
+    @FindBy(xpath = "//a[@title='Upcoming Bikes']/parent::li")
     WebElement upcomingBikes;
 
     @FindBy(xpath = "//a[@title='upcoming Yamaha bikes']")

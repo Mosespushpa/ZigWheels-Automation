@@ -1,0 +1,107 @@
+2026-01-31 10:37:55 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-01-31 10:37:55 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-01-31 10:37:59 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-01-31 10:38:12 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-01-31 10:38:25 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-01-31 10:38:25 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-01-31 10:39:24 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-01-31 10:39:25 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-01-31 10:39:35 [main] ERROR testCases.TC_003_UsedCars - Error occurred: 
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=142.0.7444.176)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b1aa78bb847e0640d3421d4e6bf77fb, clickElement {id=f.A7265C61BE103614535A66B0282C2AE2.d.799308EF6A3C6C13BF10C925A41485CC.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\2457247\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65459}, goog:processID: 22132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65459/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4b1aa78bb847e0640d3421d4e6bf77fb)] -> xpath: //a[@title='Used Cars' and text()='Used Cars']]
+Session ID: 4b1aa78bb847e0640d3421d4e6bf77fb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.usedCars.clickUsedCars(usedCars.java:53)
+	at testCases.TC_003_UsedCars.usedCars(TC_003_UsedCars.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+2026-01-31 10:40:18 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-01-31 10:40:18 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-01-31 10:40:19 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-01-31 10:40:19 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-01-31 10:41:18 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-01-31 10:41:20 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-01-31 10:41:21 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-01-31 10:41:21 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-02-02 12:00:40 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-02 12:00:40 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-02 12:00:42 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-02 12:00:43 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-02 12:00:46 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-02 12:00:46 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-02-02 12:00:57 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-02-02 12:00:58 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-02-02 12:01:08 [main] ERROR testCases.TC_003_UsedCars - Error occurred: 
+2026-02-02 12:01:18 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-02-02 12:01:18 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-02-02 12:01:19 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-02-02 12:01:19 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
+2026-02-02 12:01:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Invalid input is entered
+2026-02-02 12:01:23 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Next Button
+2026-02-02 12:01:25 [main] INFO  testCases.TC_004_InvalidUserDetails - Captured a ScreenShot
+2026-02-02 12:01:25 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Finished TC_004_InvalidUserDetails **
+2026-02-02 12:03:33 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-02 12:03:33 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-02 12:03:36 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-02 12:03:37 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-02 12:03:40 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-02 12:03:40 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **
+2026-02-02 12:03:52 [main] INFO  testCases.TC_003_UsedCars - ** Started TC_003_UsedCars **
+2026-02-02 12:03:52 [main] INFO  testCases.TC_003_UsedCars - Hovered over More
+2026-02-02 12:03:56 [main] INFO  testCases.TC_003_UsedCars - Clicked on Used Cars
+2026-02-02 12:03:56 [main] INFO  testCases.TC_003_UsedCars - Selected City as Chennai
+2026-02-02 12:03:57 [main] INFO  testCases.TC_003_UsedCars - Retrieved all Popular Models
+2026-02-02 12:03:57 [main] INFO  testCases.TC_003_UsedCars - ** Finished TC_003_UsedCars **
+2026-02-02 12:04:08 [main] INFO  testCases.TC_004_InvalidUserDetails - ** Started TC_004_InvalidUserDetails **
+2026-02-02 12:04:08 [main] INFO  testCases.TC_004_InvalidUserDetails - Clicked on Login icon
+2026-02-02 12:04:08 [main] INFO  testCases.TC_004_InvalidUserDetails - Selected Google as Signin Option
+2026-02-02 12:04:08 [main] INFO  testCases.TC_004_InvalidUserDetails - Switched to Login Page
