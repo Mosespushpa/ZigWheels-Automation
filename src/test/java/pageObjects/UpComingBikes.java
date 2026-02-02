@@ -25,7 +25,7 @@ public class UpComingBikes  extends BasePage{
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    @FindBy(xpath = "//span[contains(text(),'NEW BI')]")
+    @FindBy(css = "li.hd-nav span.c-p")
     WebElement newBikes;
 
     @FindBy(xpath = "//a[@title='Upcoming Bikes']")
@@ -44,12 +44,13 @@ public class UpComingBikes  extends BasePage{
     // hover over new bikes
     public void hoveronnewBikess(){
         wait.until(ExpectedConditions.visibilityOf(newBikes));
-        act.moveToElement(newBikes).perform();
+        act.moveToElement(newBikes).pause(Duration.ofMillis(500)).perform();
+        wait.until(ExpectedConditions.visibilityOf(upcomingBikes));
     }
 
     // click on upcoming bikes
     public void upcomingBikess(){
-        wait.until(ExpectedConditions.visibilityOf(upcomingBikes));
+
         wait.until(ExpectedConditions.elementToBeClickable(upcomingBikes));
         upcomingBikes.click();
     }
