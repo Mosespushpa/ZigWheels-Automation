@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.*;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,14 +26,14 @@ public class UpComingBikes  extends BasePage{
         this.js = (JavascriptExecutor) driver;
     }
 
-    @FindBy(xpath = "//span[contains(@class,'c-p ml-5') and contains(.,'NEW BI')]/parent::li")
+    @FindBy(xpath = "//span[contains(@class,'c-p ml-5') and contains(.,'NEW BI')]")
     WebElement newBikes;
 
-    @FindBy(xpath = "//a[@title='Upcoming Bikes']/parent::li")
+    @FindBy(xpath = "//a[@title='Upcoming Bikes']")
     WebElement upcomingBikes;
 
     @FindBy(xpath = "//a[@title='upcoming Yamaha bikes']")
-    WebElement hondaBikes;
+    WebElement brandName;
 
     @FindBy(xpath = "//span[text()='View More Bikes ']")
     WebElement viewMoreBikes;
@@ -58,23 +57,18 @@ public class UpComingBikes  extends BasePage{
 
     //select honda Bike as model
     public void selectBikeModel() {
-        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", hondaBikes);
-        wait.until(ExpectedConditions.visibilityOf(hondaBikes));
-        wait.until(ExpectedConditions.elementToBeClickable(hondaBikes));
-        js.executeScript("arguments[0].click();", hondaBikes);
+        wait.until(ExpectedConditions.visibilityOf(brandName));
+        act.scrollToElement(brandName).pause(Duration.ofSeconds(1)).perform();
+        wait.until(ExpectedConditions.visibilityOf(brandName));
+        wait.until(ExpectedConditions.elementToBeClickable(brandName));
+        brandName.click();
     }
 
-    public boolean viewMore(){
-        if(viewMoreBikes.isDisplayed()){
-            return true;
-        }
-        return false;
-    }
 
     public String cleaning(String s){
         String cleaned = s.replace(".","")
-                          .replace(" ","")
-                          .replace("Rs","");
+                .replace(" ","")
+                .replace("Rs","");
         if(cleaned.contains("Lakh")){
             cleaned = cleaned.replace("Lakh","000");
         }
@@ -84,11 +78,11 @@ public class UpComingBikes  extends BasePage{
 
     // retrieve bikes under specific price range
     public void bikesDetails() throws IOException {
-        js.executeScript("arguments[0].scrollIntoView({block: 'center'});", viewMoreBikes);
         wait.until(ExpectedConditions.visibilityOf(viewMoreBikes));
+        act.scrollToElement(viewMoreBikes).pause(Duration.ofSeconds(1)).perform();
         wait.until(ExpectedConditions.elementToBeClickable(viewMoreBikes));
-        if(viewMore()){
-            js.executeScript("arguments[0].click();", viewMoreBikes);
+        if(viewMoreBikes.isDisplayed()){
+            viewMoreBikes.click();
         }
         int rowNum = 1;
         for(WebElement detail : bikeDetails){

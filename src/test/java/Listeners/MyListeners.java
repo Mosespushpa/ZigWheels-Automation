@@ -8,6 +8,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import testBase.BaseClass;
 
 public class MyListeners implements ITestListener {
 
@@ -37,13 +38,24 @@ public class MyListeners implements ITestListener {
 
     public void onTestSuccess(ITestResult result){
         test = extent.createTest(result.getName());
-        if(result.getName().equals("invalidUserDetails")){
-            test.addScreenCaptureFromPath(System.getProperty("user.dir") + "/screenShots/errorMessage.png");
+        if(result.getName().equals("invalidUserDetails")) {
+            try {
+                String imgPath = new BaseClass().takeScreenShots(result.getName());
+                test.addScreenCaptureFromPath(imgPath);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
         }
         test.log(Status.PASS, "Test case PASSED is: " +result.getName());
     }
     public void onTestFailure(ITestResult result){
         test = extent.createTest(result.getName());
+        try {
+            String imgPath = new BaseClass().takeScreenShots(result.getName());
+            test.addScreenCaptureFromPath(imgPath);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
         test.log(Status.FAIL, "Test case FAILED is: " +result.getName());
         test.log(Status.FAIL, "Test case FAILED cause is: " +result.getThrowable());
     }
@@ -55,12 +67,12 @@ public class MyListeners implements ITestListener {
 
     public void onFinish(ITestContext context) {
         extent.flush();
-//        try {
-//            String reportPath = System.getProperty("user.dir") + "./reports/zigWheelsExtentReport.html";
-//            java.awt.Desktop.getDesktop().browse(new java.io.File(reportPath).toURI());
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        try {
+            String reportPath = System.getProperty("user.dir") + "./reports/zigWheelsExtentReport.html";
+            java.awt.Desktop.getDesktop().browse(new java.io.File(reportPath).toURI());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

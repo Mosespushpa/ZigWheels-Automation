@@ -9,6 +9,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import testBase.BaseClass;
 
 import java.io.File;
 import java.io.IOException;
@@ -41,6 +42,7 @@ public class InvalidLogin extends BasePage {
     }
 
     public void clickGoogleSignin() throws InterruptedException {
+        wait.until(ExpectedConditions.visibilityOf(googleSignin));
         wait.until(ExpectedConditions.elementToBeClickable(googleSignin));
         googleSignin.click();
     }
@@ -62,13 +64,10 @@ public class InvalidLogin extends BasePage {
         nextButton.click();
     }
 
-    public void takeScreenShots() throws Exception {
+    public void waitForErrorMsg(){
         wait.until(ExpectedConditions.visibilityOf(errormsg));
-        TakesScreenshot ts = (TakesScreenshot)driver;
-        File sourcefile = ts.getScreenshotAs(OutputType.FILE);
-        File targetfile = new File(System.getProperty("user.dir") + "/ScreenShots/ErrorMessage.png");
-        FileUtils.copyFile(sourcefile, targetfile);
     }
+
 
 
 

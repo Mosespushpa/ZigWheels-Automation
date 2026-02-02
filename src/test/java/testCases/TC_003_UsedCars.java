@@ -12,7 +12,7 @@ public class TC_003_UsedCars extends BaseClass {
     public void usedCars(){
         try {
             logger.info("** Started TC_003_UsedCars **");
-            usedCars us = new usedCars(driver);
+            usedCars us = new usedCars(getDriver());
 
             us.hoverOverMore();
             logger.info("Hovered over More");

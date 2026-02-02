@@ -39,7 +39,7 @@ public class usedCars extends BasePage{
 
     //Loating Popular Models
     @FindBy(xpath="//div[@class='gsc_thin_scroll']/descendant::label")
-   static List<WebElement> allmodels;
+    static List<WebElement> allmodels;
 
     //Locating Popular Models Text
     @FindBy(xpath = "//div[contains(text(),'Pop')]")
@@ -58,7 +58,7 @@ public class usedCars extends BasePage{
     }
 
     public void allModels() throws IOException {
-        js.executeScript("arguments[0].scrollIntoView({block: 'center'});",allmodels.get(0));
+        act.scrollToElement(allmodels.get(0)).pause(Duration.ofSeconds(1)).perform();
         wait.until(ExpectedConditions.visibilityOf(allmodels.get(0)));
         int cellNum = 0;
         int row = 1;

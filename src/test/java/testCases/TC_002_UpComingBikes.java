@@ -11,7 +11,7 @@ public class TC_002_UpComingBikes extends BaseClass {
     public void upComingBikesTest() throws InterruptedException {
         try {
             logger.info("** Starting TC_002_UpComingBikes **");
-            UpComingBikes up = new UpComingBikes(driver);
+            UpComingBikes up = new UpComingBikes(getDriver());
 
             up.hoveronnewBikess();
             logger.info("Hovered on NewBikes");
@@ -22,7 +22,7 @@ public class TC_002_UpComingBikes extends BaseClass {
             up.selectBikeModel();
             logger.info("Selected the Bike Model");
 
-            up.bikesDetails();
+           up.bikesDetails();
             logger.info("Retrieved Bike Details");
 
             logger.info("** Finished TC_002_UpComingBikes **");
