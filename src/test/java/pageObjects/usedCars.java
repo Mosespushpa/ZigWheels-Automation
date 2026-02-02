@@ -17,7 +17,7 @@ import java.util.List;
 public class usedCars extends BasePage{
     public usedCars(WebDriver driver) {
         super(driver);
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     Actions act=new Actions(driver);
@@ -26,7 +26,7 @@ public class usedCars extends BasePage{
     ExcelUtility ex = new ExcelUtility(path);
 
     //Locating More DropDown
-    @FindBy(xpath="//span[text()='MORE']")
+    @FindBy(xpath="//span[text()='MORE']/parent::li")
     WebElement more;
 
     //Clicking Used Cars

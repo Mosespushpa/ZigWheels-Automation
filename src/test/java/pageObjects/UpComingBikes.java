@@ -21,7 +21,7 @@ public class UpComingBikes  extends BasePage{
 
     public UpComingBikes(WebDriver driver) {
         super(driver);
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         this.act = new Actions(driver);
         this.js = (JavascriptExecutor) driver;
     }
