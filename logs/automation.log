@@ -1,1 +1,7 @@
 2026-02-03 11:03:35 [main] ERROR testCases.TC_004_InvalidUserDetails - Error occurred: 
+2026-02-03 11:11:27 [main] INFO  testCases.TC_002_UpComingBikes - ** Starting TC_002_UpComingBikes **
+2026-02-03 11:11:28 [main] INFO  testCases.TC_002_UpComingBikes - Hovered on NewBikes
+2026-02-03 11:11:30 [main] INFO  testCases.TC_002_UpComingBikes - Clicked on Upcoming Bikes
+2026-02-03 11:11:31 [main] INFO  testCases.TC_002_UpComingBikes - Selected the Bike Model
+2026-02-03 11:11:39 [main] INFO  testCases.TC_002_UpComingBikes - Retrieved Bike Details
+2026-02-03 11:11:39 [main] INFO  testCases.TC_002_UpComingBikes - ** Finished TC_002_UpComingBikes **

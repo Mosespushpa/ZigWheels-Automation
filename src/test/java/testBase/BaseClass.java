@@ -139,8 +139,9 @@ public class BaseClass {
         // Driver setup
         getDriver().manage().deleteAllCookies();
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        getDriver().get(p.getProperty("appURL"));
         getDriver().manage().window().maximize();
+        getDriver().get(p.getProperty("appURL"));
+
     }
 
     public String takeScreenShots(String cap) throws Exception {
