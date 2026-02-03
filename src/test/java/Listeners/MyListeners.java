@@ -10,6 +10,8 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import testBase.BaseClass;
 
+import java.awt.*;
+
 public class MyListeners implements ITestListener {
 
     public ExtentSparkReporter sparkReporter;
@@ -39,8 +41,10 @@ public class MyListeners implements ITestListener {
     public void onTestSuccess(ITestResult result){
         test = extent.createTest(result.getName());
         if(result.getName().equals("invalidUserDetails")) {
+            BaseClass base = (BaseClass) result.getInstance();
             try {
-                String imgPath = new BaseClass().takeScreenShots(result.getName());
+
+                String imgPath = base.takeScreenShots(result.getName());
                 test.addScreenCaptureFromPath(imgPath);
             } catch (Exception e) {
                 throw new RuntimeException(e);
@@ -48,10 +52,12 @@ public class MyListeners implements ITestListener {
         }
         test.log(Status.PASS, "Test case PASSED is: " +result.getName());
     }
+
     public void onTestFailure(ITestResult result){
         test = extent.createTest(result.getName());
+        BaseClass base = (BaseClass) result.getInstance();
         try {
-            String imgPath = new BaseClass().takeScreenShots(result.getName());
+            String imgPath = base.takeScreenShots(result.getName());
             test.addScreenCaptureFromPath(imgPath);
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -67,12 +73,12 @@ public class MyListeners implements ITestListener {
 
     public void onFinish(ITestContext context) {
         extent.flush();
-//        try {
-//            String reportPath = System.getProperty("user.dir") + "./reports/zigWheelsExtentReport.html";
-//            java.awt.Desktop.getDesktop().browse(new java.io.File(reportPath).toURI());
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        try {
+            String reportPath = System.getProperty("user.dir") + "./reports/zigWheelsExtentReport.html";
+            Desktop.getDesktop().browse(new java.io.File(reportPath).toURI());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

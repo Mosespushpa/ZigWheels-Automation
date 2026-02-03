@@ -7,10 +7,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import pageObjects.UpComingBikes;
 
 public class ExcelUtility {
     FileInputStream file;
@@ -42,7 +40,6 @@ public class ExcelUtility {
 
         workbook.close();
         file.close();
-
         return data;
 
     }
@@ -53,13 +50,10 @@ public class ExcelUtility {
         sheet = workbook.getSheet(sheetName);
 
         row = sheet.getRow(rowNum);
-        if (row == null) {
-            row = sheet.createRow(rowNum);
-        }
 
+        row = sheet.createRow(rowNum);
         cell = row.createCell(cellNum);
         cell.setCellValue(data);
-
         file.close();
         FileOutputStream out = new FileOutputStream(path);
         workbook.write(out);

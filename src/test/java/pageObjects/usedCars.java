@@ -5,7 +5,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObjects.UpComingBikes;
 import utilities.ExcelUtility;
 
 import java.io.IOException;
@@ -16,10 +15,10 @@ public class usedCars extends BasePage{
     public usedCars(WebDriver driver) {
         super(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        this.js = (JavascriptExecutor)driver;
+        this.act = new Actions(driver);
     }
 
-    Actions act=new Actions(driver);
-    JavascriptExecutor js = (JavascriptExecutor)driver;
     String path = System.getProperty("user.dir")+"//TestData//EmailData.xlsx";
     ExcelUtility ex = new ExcelUtility(path);
 
@@ -48,16 +47,7 @@ public class usedCars extends BasePage{
                 By.xpath("//nav[@class='headerNav']")
         ));
         wait.until(ExpectedConditions.visibilityOf(more));
-        //act.moveToElement(more).pause(Duration.ofSeconds(1)).perform();
-        safeClick(more);
-    }
-    public void safeClick(WebElement element) {
-        try {
-            wait.until(ExpectedConditions.elementToBeClickable(element));
-            element.click();
-        } catch (ElementClickInterceptedException e) {
-            js.executeScript("arguments[0].click();", element);
-        }
+        act.moveToElement(more).pause(Duration.ofSeconds(1)).perform();
     }
 
     public void scrollToElement(WebElement element) {

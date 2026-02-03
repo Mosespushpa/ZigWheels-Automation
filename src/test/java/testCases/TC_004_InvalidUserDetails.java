@@ -12,7 +12,7 @@ public class TC_004_InvalidUserDetails extends BaseClass {
     public void invalidUserDetails(String email) throws Exception {
         try {
             logger.info("** Started TC_004_InvalidUserDetails **");
-            InvalidLogin il = new InvalidLogin(getDriver());
+            InvalidLogin il = new InvalidLogin(driver);
 
             il.clickLogin();
             logger.info("Clicked on Login icon");

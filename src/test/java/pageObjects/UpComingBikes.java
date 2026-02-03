@@ -15,9 +15,10 @@ public class UpComingBikes  extends BasePage{
     public UpComingBikes(WebDriver driver) {
         super(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        this.js = (JavascriptExecutor) driver;
+        this.act = new Actions(driver);
     }
 
-    JavascriptExecutor js = (JavascriptExecutor) driver;
     String path = System.getProperty("user.dir")+"//TestData//EmailData.xlsx";
     ExcelUtility ex = new ExcelUtility(path);
 
@@ -43,14 +44,12 @@ public class UpComingBikes  extends BasePage{
                 By.xpath("//nav[@class='headerNav']")
         ));
         wait.until(ExpectedConditions.visibilityOf(newBikes));
-        //act.moveToElement(newBikes).pause(Duration.ofMillis(500)).perform();
-        safeClick(newBikes);
+        act.moveToElement(newBikes).pause(Duration.ofMillis(500)).perform();
         wait.until(ExpectedConditions.visibilityOf(upcomingBikes));
     }
 
     // click on upcoming bikes
     public void upcomingBikess(){
-
         wait.until(ExpectedConditions.elementToBeClickable(upcomingBikes));
         upcomingBikes.click();
     }

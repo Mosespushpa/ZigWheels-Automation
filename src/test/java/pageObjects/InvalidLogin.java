@@ -1,18 +1,10 @@
 package pageObjects;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import testBase.BaseClass;
-
-import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -48,13 +40,11 @@ public class InvalidLogin extends BasePage {
     }
 
     public void switchingToSigninPage() {
-
         wait.until(ExpectedConditions.numberOfWindowsToBe(2));
         Set<String> windowIDs = driver.getWindowHandles();
         List<String> windowList = new ArrayList<>(windowIDs);
         driver.switchTo().window(windowList.get(1));
     }
-
 
     public void givingUserInput(String email){
         userInput.sendKeys(email);

@@ -1,6 +1,5 @@
 package utilities;
 
-import lombok.Data;
 import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
@@ -14,6 +13,4 @@ public class DataProviders {
         String data=eu.getCellValue("Sheet1",1,0);
         return new Object[][]{{data}};
     }
-
 }
-//here we are calling email from sheet 1
