@@ -113,11 +113,11 @@ public class BaseClass {
 
                     // Disable browser notifications
                     options.addArguments("--disable-notifications");
-
                     // (Recommended) Additional stability options
                     options.addArguments("--disable-popup-blocking");
                     options.addArguments("--disable-infobars");
                     options.addArguments("--start-maximized");
+                    options.addArguments("--window-size=1920,1080");
 
                     driver = new ChromeDriver(options);
 
