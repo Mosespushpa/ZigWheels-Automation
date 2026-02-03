@@ -110,7 +110,6 @@ public class BaseClass {
                 case "chrome":
 
                     ChromeOptions options = new ChromeOptions();
-<<<<<<< HEAD
 
 //                     Disable browser notifications
                     options.addArguments("--disable-notifications");
@@ -121,7 +120,7 @@ public class BaseClass {
              
 
                     driver = new ChromeDriver();
-=======
+
                     options.addArguments("--disable-notifications");
                     options.addArguments("--start-maximized");
                     options.addArguments("--window-size=1920,1080");
@@ -130,7 +129,6 @@ public class BaseClass {
                     options.addArguments("--disable-dev-shm-usage");
                     options.addArguments("--force-device-scale-factor=1");
                     driver = new ChromeDriver(options);
->>>>>>> e1fb495b277142156bf273065e4a5888b5112540
 
                     break;
                 case "edge":
