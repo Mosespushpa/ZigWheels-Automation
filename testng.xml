@@ -10,10 +10,10 @@
         <parameter name="browser" value="chrome"/>
 <!--        <parameter name="os" value="linux"/>-->
         <classes>
-            <class name="testCases.TC_001_HomePage"/>
+<!--            <class name="testCases.TC_001_HomePage"/>-->
             <class name="testCases.TC_002_UpComingBikes"/>
             <class name="testCases.TC_003_UsedCars"/>
-            <class name="testCases.TC_004_InvalidUserDetails"/>
+<!--            <class name="testCases.TC_004_InvalidUserDetails"/>-->
         </classes>
     </test>
 

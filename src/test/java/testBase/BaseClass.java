@@ -111,23 +111,21 @@ public class BaseClass {
 
                     ChromeOptions options = new ChromeOptions();
 
-                    // Disable browser notifications
+//                     Disable browser notifications
                     options.addArguments("--disable-notifications");
 
                     // (Recommended) Additional stability options
                     options.addArguments("--disable-popup-blocking");
                     options.addArguments("--disable-infobars");
-                    options.addArguments("--start-maximized");
+             
 
-                    driver = new ChromeDriver(options);
+                    driver = new ChromeDriver();
 
                     break;
                 case "edge":
                     driver = new EdgeDriver();
                     break;
-                case "firefox":
-                    driver = new FirefoxDriver();
-                    break;
+
                 default:
                     throw new IllegalArgumentException("Invalid browser name: " + br);
             }
@@ -137,10 +135,12 @@ public class BaseClass {
         tlDriver.set(driver);
 
         // Driver setup
-        getDriver().manage().deleteAllCookies();
-        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        getDriver().manage().window().maximize();
-        getDriver().get(p.getProperty("appURL"));
+//        getDriver().manage().deleteAllCookies();
+//        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//        getDriver().manage().window().maximize();
+//        getDriver().get(p.getProperty("appURL"));
+        driver.manage().window().maximize();
+        driver.get(p.getProperty("appURL"));
 
     }
 
