@@ -110,15 +110,13 @@ public class BaseClass {
                 case "chrome":
 
                     ChromeOptions options = new ChromeOptions();
-
-                    // Disable browser notifications
                     options.addArguments("--disable-notifications");
-
-                    // (Recommended) Additional stability options
-                    options.addArguments("--disable-popup-blocking");
-                    options.addArguments("--disable-infobars");
                     options.addArguments("--start-maximized");
-
+                    options.addArguments("--window-size=1920,1080");
+                    options.addArguments("--disable-gpu");
+                    options.addArguments("--no-sandbox");
+                    options.addArguments("--disable-dev-shm-usage");
+                    options.addArguments("--force-device-scale-factor=1");
                     driver = new ChromeDriver(options);
 
                     break;
