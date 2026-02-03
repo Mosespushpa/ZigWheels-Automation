@@ -67,12 +67,12 @@ public class MyListeners implements ITestListener {
 
     public void onFinish(ITestContext context) {
         extent.flush();
-        try {
-            String reportPath = System.getProperty("user.dir") + "./reports/zigWheelsExtentReport.html";
-            java.awt.Desktop.getDesktop().browse(new java.io.File(reportPath).toURI());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            String reportPath = System.getProperty("user.dir") + "./reports/zigWheelsExtentReport.html";
+//            java.awt.Desktop.getDesktop().browse(new java.io.File(reportPath).toURI());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 
 }
