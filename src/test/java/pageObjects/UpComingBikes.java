@@ -15,17 +15,16 @@ import utilities.ExcelUtility;
 
 public class UpComingBikes  extends BasePage{
 
-    Actions act = new Actions(driver);
-    JavascriptExecutor js = (JavascriptExecutor) driver;
-    String path = System.getProperty("user.dir")+"//TestData//EmailData.xlsx";
-    ExcelUtility ex = new ExcelUtility(path);
-
     public UpComingBikes(WebDriver driver) {
         super(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    @FindBy(xpath = "//span[contains(text(),'NEW BI')]/parent::li")
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    String path = System.getProperty("user.dir")+"//TestData//EmailData.xlsx";
+    ExcelUtility ex = new ExcelUtility(path);
+
+    @FindBy(xpath = "//nav[@class='headerNav']/ul/li[3]")
     WebElement newBikes;
 
     @FindBy(xpath = "//a[@title='Upcoming Bikes']")
