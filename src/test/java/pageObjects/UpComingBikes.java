@@ -25,7 +25,7 @@ public class UpComingBikes  extends BasePage{
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
-    @FindBy(xpath = "//span[contains(text(),'NEW BI')]")
+    @FindBy(xpath = "//span[contains(text(),'NEW BI')]/parent::li")
     WebElement newBikes;
 
     @FindBy(xpath = "//a[@title='Upcoming Bikes']")
