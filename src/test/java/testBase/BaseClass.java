@@ -84,9 +84,6 @@ public class BaseClass {
 
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("--disable-notifications");
-                    options.addArguments("--disable-notifications");
-                    options.addArguments("--headless");
-                    options.addArguments("--window-size=1920,1080");
                     cap.setCapability(ChromeOptions.CAPABILITY, options);
                     break;
 
@@ -111,11 +108,17 @@ public class BaseClass {
             //LOCAL execution (initialize only once)
             switch (br.toLowerCase()) {
                 case "chrome":
+
                     ChromeOptions options = new ChromeOptions();
+
                     // Disable browser notifications
                     options.addArguments("--disable-notifications");
-                    options.addArguments("--headless");
-                    options.addArguments("--window-size=1920,1080");
+
+                    // (Recommended) Additional stability options
+                    options.addArguments("--disable-popup-blocking");
+                    options.addArguments("--disable-infobars");
+                    options.addArguments("--start-maximized");
+
                     driver = new ChromeDriver(options);
 
                     break;
