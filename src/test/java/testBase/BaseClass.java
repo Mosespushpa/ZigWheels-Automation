@@ -84,10 +84,6 @@ public class BaseClass {
 
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("--disable-notifications");
-                    options.addArguments("--start-maximized");
-                    options.addArguments("--window-size=1920,1080");
-                    options.addArguments("--disable-dev-shm-usage");
-                    options.addArguments("--no-sandbox");
                     cap.setCapability(ChromeOptions.CAPABILITY, options);
                     break;
 

@@ -27,7 +27,7 @@ public class usedCars extends BasePage{
     ExcelUtility ex = new ExcelUtility(path);
 
     //Locating More DropDown
-    @FindBy(xpath="(//span[@class='c-p ml-5'])[4]")
+    @FindBy(xpath="//span[contains(text(),'MOR')]")
     WebElement more;
 
     //Clicking Used Cars

@@ -8,6 +8,7 @@
 
     <test name="ChromeTest" thread-count="5" >
         <parameter name="browser" value="chrome"/>
+<!--        <parameter name="os" value="linux"/>-->
         <classes>
             <class name="testCases.TC_001_HomePage"/>
             <class name="testCases.TC_002_UpComingBikes"/>
