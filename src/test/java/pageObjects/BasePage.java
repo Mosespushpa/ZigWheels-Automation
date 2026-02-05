@@ -14,6 +14,7 @@ public class BasePage {
     WebDriverWait wait;
     JavascriptExecutor js;
     Actions act;
+
     public BasePage(WebDriver driver) {
         this.driver = driver;
         this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
