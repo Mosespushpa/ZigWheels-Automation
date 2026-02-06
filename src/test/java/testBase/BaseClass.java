@@ -60,6 +60,10 @@ public class BaseClass {
 
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("--disable-notifications");
+                    options.addArguments("--headless=new");
+                    options.addArguments("--window-size=1920,1080");
+                    options.addArguments("--force-device-scale-factor=1");
+
                     cap.setCapability(ChromeOptions.CAPABILITY, options);
                     break;
 
@@ -80,7 +84,10 @@ public class BaseClass {
             switch (br.toLowerCase()) {
                 case "chrome":
                     ChromeOptions options = new ChromeOptions();
-                    options.addArguments("--disable-notifications");
+                     options.addArguments("--disable-notifications");
+                    options.addArguments("--headless=new");
+                    options.addArguments("--window-size=1920,1080");
+                    options.addArguments("--force-device-scale-factor=1");
                     driver = new ChromeDriver(options);
                     break;
                 case "edge":
@@ -95,9 +102,9 @@ public class BaseClass {
         }
 
         // Driver setup
-        driver.manage().deleteAllCookies();
+       driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().window().maximize();
+       driver.manage().window().setSize(new org.openqa.selenium.Dimension(1920, 1080));
         driver.get(p.getProperty("appURL"));
 
     }
