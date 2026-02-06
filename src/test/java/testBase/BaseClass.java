@@ -80,10 +80,6 @@ public class BaseClass {
             switch (br.toLowerCase()) {
                 case "chrome":
                     ChromeOptions options = new ChromeOptions();
-                    options.addArguments("--headless=new");
-                    options.addArguments("--window-size=1920,1080");
-                    options.addArguments("--no-sandbox");
-                     options.addArguments("--disable-dev-shm-usage");
                     options.addArguments("--disable-notifications");
                     driver = new ChromeDriver(options);
                     break;
