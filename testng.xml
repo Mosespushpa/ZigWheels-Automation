@@ -6,7 +6,7 @@
         <listener class-name="Listeners.MyListeners"/>
     </listeners>
 
-    <test name="ChromeTest" thread-count="5" >
+    <test name="ChromeTest" thread-count="5" parellel = "classes">
         <parameter name="browser" value="chrome"/>
         <parameter name="os" value="windows"/>
         <classes>
